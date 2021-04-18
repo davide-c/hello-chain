@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": [
+      "es2019"
+    ],
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "strict": true,
+    "alwaysStrict":true,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "types": ["node", "@types/jest"],
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    },
+    "plugins": []
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
